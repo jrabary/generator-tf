@@ -30,6 +30,9 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
         this.templatePath('_project/_data/inputs.py'),
         `${projectName}/data/inputs.py`, this.props);
+    this.fs.copyTpl(
+        this.templatePath('_project/_data/inputs_test.py'),
+        `${projectName}/data/inputs_test.py`, this.props);
 
     this.fs.copyTpl(
         this.templatePath('_project/_models/__init__.py'),
@@ -38,6 +41,9 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
         this.templatePath('_project/_models/my_model.py'),
         `${projectName}/models/my_model.py`, this.props);
+    this.fs.copyTpl(
+        this.templatePath('_project/_models/my_model_test.py'),
+        `${projectName}/models/my_model_test.py`, this.props);
 
     this.fs.copyTpl(
         this.templatePath('_project/estimator.py'),

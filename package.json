@@ -1,11 +1,11 @@
 {
   "name": "generator-tf",
-  "version": "0.0.0",
-  "description": "Tensorflow estimators",
+  "version": "0.0.1",
+  "description": "Tensorflow estimators based project",
   "homepage": "",
   "author": {
     "name": "Jaonary Rabarisoa",
-    "email": "jaonary.rabarisoa@cea.fr",
+    "email": "jaonary@gmail.com",
     "url": ""
   },
   "files": [
