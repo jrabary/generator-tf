@@ -1,5 +1,5 @@
 # generator-tf [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Tensorflow estimators
+> With generator-tf you can scaffold a Tensorflow project based on tf.Estimator
 
 ## Installation
 
@@ -9,10 +9,11 @@ First, install [Yeoman](http://yeoman.io) and generator-tf using [npm](https://w
 npm install -g yo
 npm install -g generator-tf
 ```
-
 Then generate your new project:
 
 ```bash
+mkdir my_cool_tf_project
+cd my_cool_tf_project
 yo tf
 ```
 
